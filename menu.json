@@ -1,0 +1,137 @@
+{
+  "menu": [
+    {
+      "category": "Bagels",
+      "image": "images/bagel-menu.jpeg",
+      "items": [
+        {
+          "name": "Just a Plain Bagel",
+          "text": "Plain, Blueberry, Cinnamon Sugar, Egg, Rye, Pumpernickel, Sesame, Poppy, Salt, Onion, Cinnamon Raisin, Spinach, Sunflower, Garlic, Wheat,  Everything, and Whole Wheat Everything.",
+          "price": 0.95
+        },
+        {
+          "name": "Bagel w/ Jelly",
+          "text": "",
+          "price": 1.49
+        },
+        {
+          "name": "Bagel w/ Butter",
+          "text": "",
+          "price": 1.49
+        },
+        {
+          "name": "Bagel w/ Peanut Butter",
+          "text": "",
+          "price": 2.09
+        },
+        {
+          "name": "Bagel w/ Peanut Butter & Jelly",
+          "text": "",
+          "price": 2.68
+        },
+        {
+          "name": "Bagel w/ Plain Cream Cheese",
+          "text": "",
+          "price": 2.09
+        },
+        {
+          "name": "Bagel w/ Flavored Cream Cheese",
+          "text": "Veggie, Chive, Sun Dried Tomato, Jalapeño, Strawberry, Cinnamon, Raisin, Walnut, Olive, Garlic & Herb.",
+          "price": 2.99
+        },
+        {
+          "name": "Bagel w/ Lox Spread",
+          "text": "",
+          "price": 3.39
+        },
+        {
+          "name": "Lox & Plain Cream Cheese",
+          "text": "*Served w/ Lettuce, Tomato & Onions.",
+          "price": 8.25
+        },
+        {
+          "name": "Lox & Flavored Cream Cheese",
+          "text": "*Served w/ Lettuce, Tomato & Onions.",
+          "price": 8.99
+        }
+      ]
+    },
+    {
+      "category": "Breakfast Sandwiches",
+      "image": "",
+      "items": [
+        {
+          "name": "Bagel with Eggs",
+          "text": "Egg Whites Available",
+          "price": 3.01
+        },
+        {
+          "name": "Bagel with Egg & Cheese ",
+          "text": "American, Swiss, Provolone, Cheddar, Muenster or Monterey Jack",
+          "price": 3.45
+        },
+        {
+          "name": "Bagel w/ Egg & Meat",
+          "text": "Bacon, Sausage, Ham or Turkey",
+          "price": 4.17
+        },
+        {
+          "name": "Bagel w/Egg, Cheese & Meat",
+          "text": "",
+          "price": 4.63
+        },
+        {
+          "name": "Bagel w/Cheese & Meat",
+          "text": "",
+          "price": 3.45
+        }
+      ]
+    },
+    {
+      "category": "Special Wraps, Subs & Grilled  Sandwiches",
+      "image": "images/wrap-menu.jpeg",
+      "items": [
+        {
+          "name": "Falafel",
+          "text": "Spring Mix Salad, Tomato & Cucumber  Yogurt Sauce",
+          "price": 4.99
+        },
+        {
+          "name": "Turkey Club",
+          "text": "Bacon, Lettuce, Tomato, Cucumber & Home Made Hummus",
+          "price": 8.49
+        },
+        {
+          "name": "Grilled Marinated Chicken Breast",
+          "text": "Fresh Mozzarella, Roasted Red Peppers,Lettuce,  Tomato & Hummus on a Wrap or Bread.",
+          "price": 8.49
+        },
+        {
+          "name": "The God Father",
+          "text": "Prosciutto, Salami, Pepperoni, Ham, Lettuce,   Tomato,Red Peppers, Provolone & Oil and Vinegar.",
+          "price": 8.49
+        },
+        {
+          "name": "Grilled Chicken Caesar",
+          "text": "Grilled Chicken, Caesar Dressing, Lettuce, Tomato,Onions & Parmesan Cheese.",
+          "price": 7.49
+        },
+        {
+          "name": "Chicken Parmesan",
+          "text": "",
+          "price": 7.49
+        },
+        {
+          "name": "Eggplant Parmesan",
+          "text": "",
+          "price": 5.49
+        },
+        {
+          "name": "Tuna Melt ",
+          "text": "",
+          "price": 5.49
+        }
+      ]
+    }
+  ]
+}
