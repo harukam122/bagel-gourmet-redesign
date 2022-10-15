@@ -84,20 +84,21 @@ p {
 }
 
 .menu-header {
+    display: block;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: #9E4D4D;
     font-size: 1.5rem;
 }
 
-.menu-header {
-    display: block;
-}
-
 .menu-category {
     text-align: left;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.7rem;
     color: #484848;
+}
+
+.menu-col {
+    margin-right: 1rem;
 }
 
 .menu-img {
@@ -111,7 +112,8 @@ p {
     color: #484848;
 }
 
-.item-name {
+.item-name,
+.price {
     font-size: 1.2rem;
     color: #484848;
 }
