@@ -86,6 +86,7 @@ p {
 .menu-header {
     display: block;
     text-align: center;
+    margin-top: 2rem;
     font-family: 'Open Sans', sans-serif;
     color: #9E4D4D;
     font-size: 1.5rem;
@@ -94,7 +95,12 @@ p {
 .menu-category {
     text-align: left;
     margin-bottom: 1.7rem;
+    padding-left: 4rem;
     color: #484848;
+}
+
+.menu-list {
+    margin-bottom: 3rem;
 }
 
 .menu-col {

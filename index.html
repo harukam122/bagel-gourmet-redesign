@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="app.js" type="module" defer></script>
-    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="bootstrap.css"> -->
     <link rel="stylesheet" href="style.css">
     <title>Bagel Gourmet Café</title>
 </head>
 <body>
 
-<nav class="navbar sticky-top navbar-expand-sm navbar-dark">
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark">
     <div class="container-fluid" id="nav-container">
         <a class="navbar-brand" href="#">Bagel Gourmet Café</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-auto">
-                <li class="navbar-item"><a href="#home" class="nav-link">Home</a></li>
-                <li class="navbar-item"><a href="#menu" class="nav-link">Menu</a></li>
-                <li class="navbar-item"><a href="#location" class="nav-link">Location</a></li>
-                <li class="navbar-item"><a href="#photos" class="nav-link">Photos</a></li>
-                <li class="navbar-item"><a href="#contact-us" class="nav-link">Contact Us</a></li>
-            </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav ms-auto">
+                    <li class="navbar-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="navbar-item"><a href="#menu" class="nav-link">Menu</a></li>
+                    <li class="navbar-item"><a href="#location" class="nav-link">Location</a></li>
+                    <li class="navbar-item"><a href="#photos" class="nav-link">Photos</a></li>
+                    <li class="navbar-item"><a href="#contact-us" class="nav-link">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>
@@ -33,7 +42,7 @@
 
 <div id="menu" class="container-fluid text-center p-4">
     <h2 class="menu-header"><b>Food Menu</b></h2>
-    <div class="row menu-list">
+    <div class="row menu-list justify-content-center">
         <h3 class="menu-category">Bagels</h3>
         <div class="menu-col col-md-5 col-sm-11">
             <table class="table table-borderless">
@@ -141,11 +150,162 @@
             </table>
         </div>
     </div>
+    <div class="row menu-list justify-content-center">
+        <h3 class="menu-category">Breakfast Sandwiches</h3>
+        <div class="menu-col col-md-5 col-sm-11">
+            <table class="table table-borderless">
+                <tbody>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Bagel with Eggs</h4>
+                            <p class="item-text">Egg Whites Available</p>
+                        </td>
+                        <td>
+                            <h4 class="price">3.01</h4>
+                        </td>
+                    </tr>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Bagel with Egg & Cheese</h4>
+                            <p class="item-text">American, Swiss, Provolone, Cheddar, Muenster or Monterey Jack</p>
+                        </td>
+                        <td>
+                            <h4 class="price">3.45</h4>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="menu-col col-md-5 col-sm-11 justify-content-space-evenly">
+            <table class="table table-borderless">
+                <tbody>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Bagel w/ Egg & Meat</h4>
+                            <p class="item-text">Bacon, Sausage, Ham or Turkey</p>
+                        </td>
+                        <td>
+                            <h4 class="price">4.17</h4>
+                        </td>
+                    </tr>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Bagel w/Egg, Cheese & Meat</h4>
+                            <p class="item-text"></p>
+                        </td>
+                        <td>
+                            <h4 class="price">4.63</h4>
+                        </td>
+                    </tr>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Bagel w/Cheese & Meat</h4>
+                            <p class="item-text"></p>
+                        </td>
+                        <td>
+                            <h4 class="price">3.45</h4>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row menu-list justify-content-center">
+        <h3 class="menu-category">Special Wraps, Subs & Grilled  Sandwiches</h3>
+        <div class="menu-col col-md-5 col-sm-11">
+            <table class="table table-borderless">
+                <tbody>
+                    <tr class="menu-item">
+                        <img src="images/wrap-menu.jpeg" alt="wrap" class="menu-img">
+                    </tr>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Falafel</h4>
+                            <p class="item-text">Spring Mix Salad, Tomato & Cucumber  Yogurt Sauce</p>
+                        </td>
+                        <td>
+                            <h4 class="price">4.99</h4>
+                        </td>
+                    </tr>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Turkey Club</h4>
+                            <p class="item-text">Bacon, Lettuce, Tomato, Cucumber & Home Made Hummus</p>
+                        </td>
+                        <td>
+                            <h4 class="price">8.49</h4>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="menu-col col-md-5 col-sm-11 justify-content-space-evenly">
+            <table class="table table-borderless">
+                <tbody>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Grilled Marinated Chicken Breast</h4>
+                            <p class="item-text">Fresh Mozzarella, Roasted Red Peppers,Lettuce,  Tomato & Hummus on a Wrap or Bread.</p>
+                        </td>
+                        <td>
+                            <h4 class="price">8.49</h4>
+                        </td>
+                    </tr>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">The God Father</h4>
+                            <p class="item-text">Prosciutto, Salami, Pepperoni, Ham, Lettuce, Tomato,Red Peppers, Provolone & Oil and Vinegar.</p>
+                        </td>
+                        <td>
+                            <h4 class="price">8.49</h4>
+                        </td>
+                    </tr>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Grilled Chicken Caesar</h4>
+                            <p class="item-text">Grilled Chicken, Caesar Dressing, Lettuce, Tomato,Onions & Parmesan Cheese.</p>
+                        </td>
+                        <td>
+                            <h4 class="price">7.49</h4>
+                        </td>
+                    </tr>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Chicken Parmesan</h4>
+                            <p class="item-text"></p> 
+                        </td> 
+                        <td>
+                            <h4 class="price">7.49</h4>
+                        </td>
+                    </tr>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Eggplant Parmesan</h4>
+                            <p class="item-text"></p>  
+                        </td>
+                        <td>
+                            <h4 class="price">5.49</h4>
+                        </td>
+                    </tr>
+                    <tr class="menu-item">
+                        <td>
+                            <h4 class="item-name">Tuna Melt</h4>
+                            <p class="item-text"></p>  
+                        </td>
+                        <td>
+                            <h4 class="price">5.49</h4>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 </div>
 
 <footer class="bg-white text-center py-3">
     <p class="mb-0">Made with <font color="#BC8888">&hearts;</font> in Providence</p>
 </footer>
 
+<script src=”https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js” integrity=”sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo” crossorigin=”anonymous”></script>
+<script src=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js” integrity=”sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/” crossorigin=”anonymous”></script>
 </body>
 </html>
