@@ -1,3 +1,5 @@
+// Adapted code from https://mdbootstrap.com/docs/standard/extended/back-to-top/
+
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 
